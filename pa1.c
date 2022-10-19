@@ -34,7 +34,7 @@ void Convert(int temp, char unit[10]) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
-        printf("Must have number and unit btuawerf\n");
+        printf("Must have number and unit\n");
     }
     else {
         char * temp = argv[1];
